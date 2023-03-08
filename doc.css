@@ -1,0 +1,89 @@
+.mainheader{
+   display: flex;
+   justify-content: space-around;
+}
+.main-nav > ul, li  {
+    display: inline;
+    word-spacing:5px;
+    line-height: 3;
+}
+    
+.main-nav > ul, li, a {
+    text-decoration: none;
+}
+    
+
+
+.head {
+    text-align: center;
+    
+
+}
+
+ h1 {
+    text-align: center;
+    color: aquamarine;
+    font-size: larger
+    font-size:;
+}
+.headtext {
+    display: flex;
+   width:90%;
+margin-bottom: 90px;
+  margin-right: 90px;
+  margin-left: 90px;
+  font-size: 23px; 
+}
+.box{
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    display:flex;
+    justify-content:center;
+    align-content:center; 
+  }
+  .box .box2{
+    background-color:cornflowerblue;
+  }
+  .box .box3{
+    background-color:rgba(56, 56, 63, 0.998);
+  }
+ 
+  .box > div {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(42, 174, 121);
+    margin-left: 12px;
+    padding: 60px;
+    text-align: center;
+    font-size: 170%;
+    color: aliceblue
+  }
+  .brand-section > h1{
+ display: flex;
+ margin-left: 130px;
+}
+.brand-list > ul,  li, a {
+    padding: 10px;
+}
+  .stage2 {
+    text-align: center;   
+  }
+  .middleimage {
+    padding: 100px;
+    margin:30px;
+    
+  }
+  
+  .container > div {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 15px;
+    text-align: center;
+    padding: 25px;
+
+}
+.parent {
+  display: flex;
+}
+
